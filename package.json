@@ -4,11 +4,10 @@
   "description": "Parses Headers of requests",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Trion129/Header-Parser-Microservice.git"
+  "engines": {
+    "node": "4.1.1"
   },
   "keywords": [
     "header",
@@ -19,7 +18,6 @@
   "author": "Trion",
   "homepage": "https://github.com/Trion129/Header-Parser-Microservice#readme",
   "dependencies": {
-    "express": "^4.13.4"
-  },
-  "devDependencies": {}
+    "express": "^4.9.8"
+  }
 }
