@@ -11,3 +11,5 @@ app.get("/",function(req,res){
 	object.os = req.headers['user-agent'];
 	res.end(JSON.stringify(object));
 });
+
+app.listen(8080);
