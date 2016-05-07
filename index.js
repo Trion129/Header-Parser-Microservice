@@ -13,4 +13,4 @@ app.get("/",function(req,res){
 	res.end(JSON.stringify(object));
 });
 
-app.listen(/*process.env.PORT || */8080);
+app.listen(process.env.PORT || 8080);
