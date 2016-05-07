@@ -4,7 +4,7 @@ var app = express();
 
 app.enable('trust proxy');
 
-app.get("/api/whoami",function(req,res){
+app.get("/",function(req,res){
 	var object = {};
 	object.ip = req.ip;
 	object.language = req.headers["accept-language"][0];

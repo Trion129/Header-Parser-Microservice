@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Trion129/Header-Parser-Microservice/issues"
   },
-  "homepage": "https://github.com/Trion129/Header-Parser-Microservice#readme"
+  "homepage": "https://github.com/Trion129/Header-Parser-Microservice#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
