@@ -1,0 +1,25 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "Parses Headers of requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trion129/Header-Parser-Microservice.git"
+  },
+  "keywords": [
+    "header",
+    "parser",
+    "heroku",
+    "first"
+  ],
+  "author": "Trion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trion129/Header-Parser-Microservice/issues"
+  },
+  "homepage": "https://github.com/Trion129/Header-Parser-Microservice#readme"
+}
